@@ -15,3 +15,4 @@ This list is being updated.
 - [01. Get Started](./notebooks/01-get-started.ipynb)
 - [02. Inference - Sentiment Analytics](./notebooks/02-sentiment-analytics.ipynb)
 - [03. Inference - Terms Extract](./notebooks/03-terms-extract.ipynb)
+- [04. Text to SQL](./notebooks/04-text-to-sql.ipynb)
