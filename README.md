@@ -13,3 +13,4 @@ This repository shows you how to use Semantic Kernel with open source LLMs runni
 This list is being updated.
 
 - [01. Get Started](./notebooks/01-get-started.ipynb)
+- [02. Get Started](./notebooks/01-get-started.ipynb)
