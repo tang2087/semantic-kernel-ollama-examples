@@ -3,7 +3,6 @@ using Microsoft.SemanticKernel.ChatCompletion;
 using Microsoft.SemanticKernel;
 using Microsoft.SemanticKernel.Connectors.OpenAI;
 using Microsoft.SemanticKernel.TemplateEngine;
-using math_function_example.Plugins;
 using static System.Console;
 
 
@@ -13,7 +12,6 @@ var modelId = "mistral";
 var endpoint = new Uri("http://localhost:11434");
 
 var kernelBuilder = Kernel.CreateBuilder();
-kernelBuilder.Plugins.AddFromType<MyMathPlugin>();
 var kernel = kernelBuilder
     .AddOpenAIChatCompletion(
         modelId,
@@ -26,9 +24,7 @@ var chatService = kernel.GetRequiredService<IChatCompletionService>();
 var executionSettings = new OpenAIPromptExecutionSettings
 {
     MaxTokens = 2000,
-    Temperature = 0,
-    // Enable automatic invocation of kernel functions
-    ToolCallBehavior = ToolCallBehavior.AutoInvokeKernelFunctions
+    Temperature = 0.5,
 };
 
 // Create chat history
