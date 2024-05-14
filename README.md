@@ -2,6 +2,8 @@
 
 This repository shows you how to use Semantic Kernel with open source LLMs running locally.
 
+![](./resources/Llama%20with%20Semantic%20Kernel.png)
+
 ## Prerequisites
 
 - Polyglot Notebooks VSCode extension: required to run C#/.NET notebooks in VSCode directly. Choose **.NET Interactive** as kernel when running the notebooks.
