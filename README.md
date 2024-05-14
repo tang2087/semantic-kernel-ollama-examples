@@ -16,3 +16,4 @@ This list is being updated.
 - [02. Inference - Sentiment Analytics](./notebooks/02-sentiment-analytics.ipynb)
 - [03. Inference - Terms Extract](./notebooks/03-terms-extract.ipynb)
 - [04. Text to SQL](./notebooks/04-text-to-sql.ipynb)
+- [05. Math Function Plugin](./notebooks/05-math-function.ipynb)
